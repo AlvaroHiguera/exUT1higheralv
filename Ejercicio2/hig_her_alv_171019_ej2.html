@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparativa - higheralv</title>
+    <style>
+        table,th{
+            text-align: center;border: 1px solid black;
+        }
+        #tdespecial{
+            text-align: center;border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">higheralv - Comparativa de4 coches</h1>
+    <br>
+    <p style="text-align: center;">
+        higheralv - Vamos a comparar estos coches: 
+    </p>
+    <br>
+    <br>
+    <ol>
+        <li>Skoda - higheralv - Superb</li>
+        <li>Skoda - higheralv - Kodiaq</li>
+        <li>Renault - higheralv - Zoe</li>
+        <li>Renault - higheralv - Espace</li>
+    </ol>
+    <br>
+    <br>
+    <video style="display: block;margin: auto;" controls autoplay>
+        <source src="../Recursos/SkodaSuperb.avi">
+    </video>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Modelos de coches</th>
+                <th>Skoda</th>
+                <th>Renault</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td id="tdespecial">Superb TDI 150 CV <br>
+                    <img src="../Recursos/SkodaSuperb.jpg" alt="">
+                </td>
+                <td id="tdespecial">
+                    Renault Entry 88 CV <br>
+                    <img src="../Recursos/RenaultZOE.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="tdespecial">
+                    Kodiaq 2.0 TDI 150 CV <br>
+                    <img src="../Recursos/SkodaKodiaq.jpg" alt="">
+                </td>
+                <td id="tdespecial">
+                    Renault Espace 1.6 DCI130 Life 6V <br>
+                    <img src="../Recursos/RenaultEspace.jpg" alt="">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="tdespecial" colspan="3">
+                    Esto es el pie de la tabla: Datos tomados de autofacil.es
+                    <br>
+                    Nombre de fichero de examen hig_her_alv_ex171019_ej2.html
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <form name="form1" id="idform1" action="">
+        Rellena los datos con tu modelo de coche favorito: <br>
+        <br>
+        <label for="idmarca">Marca</label>
+        <br>
+        <input type="text" name="marca" id="idmarca" required placeholder="Introduce marca">
+        <br>
+        <label for="idModelo">Modelo: </label>
+        <br>
+        <input type="text" name="modelo" id="idModelo" required placeholder="Introduce modelo">
+        <br>
+        <label for="idCV">CV: </label>
+        <br>
+        <input type="number" name="CV" id="idCV" required placeholder="Introduce potencia">
+        <br>
+        <label for="idcolor">Color favorito para el coche: </label>
+        <br>
+        <input type="color" name="color" id="idcolor" required>
+        <br>
+        <label for="ididentificador">Identificador de usuario: </label>
+        <br>
+        <input type="text" required pattern="[A-Z]{2}[0-9]{4}[a-z]{1}[0-9]{1}" name="identificador" id="ididentificador" placeholder="Identificador">
+        <br>
+        <br>
+        <input type="submit" value="Enviar mis opiniones">
+        <br>
+        Gracias. Fichero de examen hig_her_alv_ex171019_ej2.html
+    </form>
+
+
+    
+</body>
+</html>
